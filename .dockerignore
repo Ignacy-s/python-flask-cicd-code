@@ -1,3 +1,5 @@
+# Dockerignore file quickly made from .gitignore file
+
 # Emacs
 \#*\#
 *\~
@@ -22,3 +24,6 @@ acme.json
 
 # Corey Code from github
 code_snippets-master
+
+# Jenkins files
+Jenkinsfile
