@@ -6,4 +6,3 @@ RUN pip install --no-cache-dir \
 EXPOSE 80
 ENV FLASK_ENV=production
 CMD ["python", "app.py"]
-
