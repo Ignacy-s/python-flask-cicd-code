@@ -22,3 +22,10 @@ acme.json
 
 # Corey Code from github
 code_snippets-master
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.tfstate.lock.info
+.terraform.lock.hcl
