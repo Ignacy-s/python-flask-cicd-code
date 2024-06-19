@@ -10,7 +10,7 @@
 
 ACCOUNT=$(aws sts get-caller-identity | jq -r .Account)
 REGION='eu-north-1'
-REPO='flask_cicd_repo'
+REPO='flask-cicd'
 
 docker build -t ${ACCOUNT}.dkr.ecr.${REGION}.amazonaws.com/${REPO} .
 
